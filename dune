@@ -1,0 +1,6 @@
+(executable
+ (name walking)
+ (libraries core incremental)
+ (preprocess
+  (pps ppx_jane))
+ (modules walking))
